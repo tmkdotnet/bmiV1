@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\xxx\\Desktop\\Net8\\WPF-APP\\Bmi1\\bmi1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7915B91-855A-48D4-834C-20C57CCC049A}|bmi1\\bmi1.csproj|C:\\Users\\xxx\\Desktop\\Net8\\WPF-APP\\Bmi1\\bmi1\\bmi1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7915B91-855A-48D4-834C-20C57CCC049A}|bmi1\\bmi1.csproj|solutionrelative:bmi1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7915B91-855A-48D4-834C-20C57CCC049A}|bmi1\\bmi1.csproj|C:\\Users\\xxx\\Desktop\\Net8\\WPF-APP\\Bmi1\\bmi1\\bmi1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A7915B91-855A-48D4-834C-20C57CCC049A}|bmi1\\bmi1.csproj|solutionrelative:bmi1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7915B91-855A-48D4-834C-20C57CCC049A}|bmi1\\bmi1.csproj|C:\\Users\\xxx\\Desktop\\Net8\\WPF-APP\\Bmi1\\bmi1\\bmi1\\bmi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7915B91-855A-48D4-834C-20C57CCC049A}|bmi1\\bmi1.csproj|solutionrelative:bmi1\\bmi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7915B91-855A-48D4-834C-20C57CCC049A}|bmi1\\bmi1.csproj|c:\\users\\xxx\\desktop\\net8\\wpf-app\\bmi1\\bmi1\\bmi1\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7915B91-855A-48D4-834C-20C57CCC049A}|bmi1\\bmi1.csproj|solutionrelative:bmi1\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\xxx\\Desktop\\Net8\\WPF-APP\\Bmi1\\bmi1\\bmi1\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "bmi1\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\xxx\\Desktop\\Net8\\WPF-APP\\Bmi1\\bmi1\\bmi1\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "bmi1\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T09:22:22.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bmi.cs",
+              "DocumentMoniker": "C:\\Users\\xxx\\Desktop\\Net8\\WPF-APP\\Bmi1\\bmi1\\bmi1\\Bmi.cs",
+              "RelativeDocumentMoniker": "bmi1\\Bmi.cs",
+              "ToolTip": "C:\\Users\\xxx\\Desktop\\Net8\\WPF-APP\\Bmi1\\bmi1\\bmi1\\Bmi.cs",
+              "RelativeToolTip": "bmi1\\Bmi.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T08:04:40.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\xxx\\Desktop\\Net8\\WPF-APP\\Bmi1\\bmi1\\bmi1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "bmi1\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\xxx\\Desktop\\Net8\\WPF-APP\\Bmi1\\bmi1\\bmi1\\MainWindow.xaml",
+              "RelativeToolTip": "bmi1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-04T07:35:11.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\xxx\\Desktop\\Net8\\WPF-APP\\Bmi1\\bmi1\\bmi1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "bmi1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\xxx\\Desktop\\Net8\\WPF-APP\\Bmi1\\bmi1\\bmi1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "bmi1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T07:35:09.485Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
