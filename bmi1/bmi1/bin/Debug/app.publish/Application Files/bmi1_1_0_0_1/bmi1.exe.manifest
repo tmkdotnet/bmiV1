@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="bmi1.exe" version="1.0.0.1" publicKeyToken="5678200ef824adad" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="bmi1" version="1.1.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="bmi1.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opcje manifestu kontroli konta użytkownika
+          Jeśli chcesz zmienić poziom kontroli konta użytkownika systemu Windows, zastąp węzeł 
+          requestedExecutionLevel jednym z następujących.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Jeśli chcesz użyć wirtualizacji plików i rejestru do celów zgodności wstecznej, 
+         usuń węzeł requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="bmi1.exe" size="12704">
+      <assemblyIdentity name="bmi1" version="1.1.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4pS77ECwD+ioLq2xUVl8pB+pOoV/X+zdxI0fKhZKg6I=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="bmi1.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=gejc11\xxx" issuerKeyHash="022727af4a5d146d2e4f4614816c796cc39f8791" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Wh4ugJcOV/ty0HwW0eEX2ENjUf5rjAr+I4QGuHsc9dw=</DigestValue></Reference></SignedInfo><SignatureValue>JjgfUWpnhGsz5+ohiRJmRhmNFDJLjk0RCXplIOxNXVNBiwMdRs/cnrraPwOLS8CdOX3UWBLE8O7udmcXKf04bVw1dq89pQGeZ2PxA8Rly7HK2uShjNfJISmvGuKtAHRmOCKrLb7BoSDJfQoLyBx/v7jNwhKm7x6VvgVeB1KSaz0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vMrXiFvtPWKhCweMFsAWUMgCkf2IqC+SIpdXg8WQ6mTIKacb3B506+6X0gYsBn//P/l08WOxU3K1RtYxCfbookgfDTcIFhmNijWpkOft/KYeqtHlihkchcBlU8SV3latNhrjK9brmDrXUPpket7YZfx6BaC97NMPurThluSmdkk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="dcf51c7bb8068423fe0a8c6bfe516343d817e1d1167cd072fb570e97802e1e5a" Description="" Url=""><as:assemblyIdentity name="bmi1.exe" version="1.0.0.1" publicKeyToken="5678200ef824adad" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=gejc11\xxx</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>qpxkK5fq0ZWEwdAhuUNqjDOJik9JHlin6QDy3wQfQh0=</DigestValue></Reference></SignedInfo><SignatureValue>phVd70ny13rnorHRO0pPZKyxFRz31MCSfqRw/6yRMJaVk9WfwrH8L+9uzwbBf2kqfrbwZpStyUD8Ga76Rr7eYrvS77NGRIT7qEovaQ4+xnjFIuPdiouIk9md4HJg607mM4/PGkFnFKwVphbPfpSDRWiHn3rUyEkAWeRa/LgTF/Y=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vMrXiFvtPWKhCweMFsAWUMgCkf2IqC+SIpdXg8WQ6mTIKacb3B506+6X0gYsBn//P/l08WOxU3K1RtYxCfbookgfDTcIFhmNijWpkOft/KYeqtHlihkchcBlU8SV3latNhrjK9brmDrXUPpket7YZfx6BaC97NMPurThluSmdkk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQKkhMGFsz9alPEnkXzfZbKjANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQAZwBlAGoAYwAxADEAXAB4AHgAeDAeFw0yNDA4MDQwOTI2MzRaFw0yNTA4MDQxNTI2MzRaMB8xHTAbBgNVBAMeFABnAGUAagBjADEAMQBcAHgAeAB4MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC8yteIW+09YqELB4wWwBZQyAKR/YioL5Iil1eDxZDqZMgppxvcHnTr7pfSBiwGf/8/+XTxY7FTcrVG1jEJ9uiiSB8NNwgWGY2KNamQ5+38ph6q0eWKGRyFwGVTxJXeVq02GuMr1uuYOtdQ+mR63thl/HoFoL3s0w+6tOGW5KZ2SQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAG7CDLbjkd4NO7yQgjaoy6NrXe79StbB7u2hkqgjBuMYhhYdeZFzocvRK/wxCLVrKzMP+8va0XevMrjc+pX/7VJpbgamprgqMR382fWL24nTDad2Kqu/ao4ii+jN3HeCZveI1gLtMtrig/QdgEIdAj0B6vPvr6roN/6rms03d8VW</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
