@@ -26,11 +26,13 @@ namespace bmi1
             {
                 try
                 {
-                 
+                    string classyfication;
                     Bmi bmi = new Bmi( weightFromUI, heigthFromUI );
 
-                    double yourBmi =  bmi.CalculateBmi();
+                    double yourBmi =  bmi.CalculateBmi(out classyfication);
                     txtB1.Text = yourBmi.ToString();
+                    txtB2.Text = classyfication;
+                   
                 }
                 catch (Exception ex)
                 {

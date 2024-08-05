@@ -6,8 +6,8 @@
         xmlns:local="clr-namespace:bmi1.Model"
         mc:Ignorable="d"
         ResizeMode="NoResize"
-        Title="BMI v1" Height="450" Width="350" Background="Silver">
-    <Grid>
+        Title="BMI v1" Height="554" Width="350" Background="Silver">
+    <Grid Margin="0,0,0,40">
         <StackPanel Margin="0,0,0,25">
             <Label Content="Waga kg" Margin="10,10,10,0" HorizontalAlignment="Center" FontSize="20" />
             <TextBox 
@@ -23,7 +23,10 @@
                     Click="ClickBmi"/>
             <TextBlock x:Name="txtB1"
                        
-                       HorizontalAlignment="Stretch" Height="141" Margin="10" Padding="10" FontSize="60" TextAlignment="Center" Foreground="#2596be" FontWeight="Bold"/>
+                       HorizontalAlignment="Stretch" Height="106" Margin="10" Padding="10" FontSize="60" TextAlignment="Center" Foreground="#2596be" FontWeight="Bold"/>
+            <TextBlock x:Name="txtB2"
+           
+                       HorizontalAlignment="Stretch" Height="61" Margin="10" Padding="10" FontSize="30" TextAlignment="Center" Foreground="#2596be" FontWeight="Bold"/>
         </StackPanel>
     </Grid>
 </Window>
